@@ -1,4 +1,4 @@
-# Rate Of Exchange
+# ExchangeRate
 Portfolio project. Intended to be used by Ukranians, who is intrested in the current exchange rate.
 ## Usage
 For any device with android 4.0+
@@ -12,7 +12,7 @@ For any device with android 4.0+
 ## Used materials
 Java SE, HTTP, XML, JSON, GSON, Rest, Retrofit, ORMLite, rxJava, rxAndroid, Dagger2
 ## License
-Copyright 2017 Zakharchenko Kostyantyn
+Copyright 2017 Zakharchenko Natali
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
