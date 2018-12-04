@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/update">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/rateToBuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.1"
+            android:maxEms="4"
+            android:gravity="center"
+            android:textSize="16sp"
+            style="@style/widget_text_style"/>
+        <TextView
+            android:id="@+id/rateToSale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="22.4"
+            android:maxEms="4"
+            android:textSize="22sp"
+            style="@style/widget_text_style"/>
+    </LinearLayout>
+    <TextView
+        android:id="@id/bankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="НБУ"
+        android:textSize="12sp"
+        style="@style/widget_text_style"/>
+    </LinearLayout>
+</RelativeLayout>

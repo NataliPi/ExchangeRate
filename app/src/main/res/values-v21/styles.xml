@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c2_dark</item>
+        <item name="colorPrimaryDark">@color/c1_darkest</item>
+        <item name="colorAccent">@color/c3_light</item>
+        <item name="android:statusBarColor">@color/c2_dark</item>
+    </style>
+</resources>
